@@ -1,1 +1,70 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+}
+
+header {
+    background-color: yellow;
+    display: block;
+}
+h1 {
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration-line: underline;
+}
+h2 {
+    font-style: oblique;
+}
+
+ul {
+    box-decoration-break: unset;
+    border: blue;
+    border-width: medium;
+    border-style: double;
+    padding: 30px;
+}
+#autoharps {
+    height: 400px;
+    width: 500px;
+}
+#cello {
+    background-color: aqua;
+}
+#mainHeading {
+    color: red;
+}
+#peptoPink {
+    background-color: pink; 
+}
+#testP{
+    font-style: italic;
+}
+#thumbPiano {
+    align-self: center;
+    height: 200px;
+    width: 200px;
+}
+#ukes {
+    height: 200px;
+    width: 250px;
+}
+
+.funParagraph {
+    color: green;
+    font-weight: bolder;
+}
+
+a:name {
+    text-decoration-line: underline;
+}
+/*
+a:link { 
+	text-decoration: blink; 
+}
+
+a:visited { 
+	font-weight: bold; 
+    text-decoration: blink; 
+	color: #1e4db3;
+	}
+*/
